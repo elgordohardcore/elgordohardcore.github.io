@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="frontendstore.css" type="text/css">
+        <link rel="stylesheet" href="Normalize/normalize.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <title>Tienda de frontend</title>
+    </head>
+
+
+    <body>
+        
+        <header class="header">
+            <a href="frontendstore.html">
+                <img class="header__logo" src="img/logo.png" alt="logotipo" >
+            </a>
+        </header>
+
+        <nav class="nav">
+            <a class="nav__enlace nav__enlace--activo" href="frontendstore.html">Tienda</a>
+            <a class="nav__enlace" href="nosotros.html">Nosotros</a>
+        </nav>
+
+        <main class="contenedor">
+            <h1 class="contenedor__titulo">React JS</h1>
+
+            <div class="camisa">
+
+                <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del Producto">
+
+                <div class="camisa__contenido">
+
+                    <p class="camisa__contenido--parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi repellendus fugit ipsa? Quod quis fugit odio sint rem eligendi iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laboriosam possimus tenetur est error quis. Numquam aliquid doloremque placeat culpa.</p>
+
+                    <form class="camisa__formulario">
+                        
+                        <select class="formulario__campo">
+                            <option class="formulario__campo--opciones" disabled selected>Talla</option>
+                            <option class="formulario__campo--opciones">Chica</option>
+                            <option class="formulario__campo--opciones">Mediana</option>
+                            <option class="formulario__campo--opciones">Grande</option>
+                        </select>
+                        <input class="formulario__campo number" type="number" min="1">
+                        <input class="formulario__submit"type="submit" value="Añadir al carrito">
+
+                    </form>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <a class="footer__texto">Front End Store - Todos los derechos Reservados 2022</a>
+        </footer>
+
+    </body>
+
+
+</html>
